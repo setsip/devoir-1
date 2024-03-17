@@ -1,0 +1,167 @@
+h1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: "lato", sans-serif;
+    color: black;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.woff);
+    src:url(../fonts/Raleway/Raleway-VariableFont_wght.ttf) format('truetype');
+}
+
+.cv {
+    border-right: 2px solid black;
+}
+
+* {
+    font-family: "Raleway", serif;
+    width: 1160px;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.introduction {
+    background-color: #782221;
+    width: 1160px;
+    height: 350px;
+    padding-top: 0%;
+    margin: auto center;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.introduction img {
+    width : 150px; 
+    height : 150px;
+    object-fit: cover;
+    border-radius : 75px;
+    box-shadow: 0 0 10px white;
+    margin-top: 0px;
+    cursor: zoom-in;
+}
+
+h1 {
+    margin-top: 60px;
+    text-align: center;
+}
+
+strong {
+    margin-left: 90px;
+    text-align: center;
+}
+
+.contact {
+    background-color: #2c1d27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 1160px;
+    height: 70px;
+}
+
+.contact a { 
+    color: white;
+    text-decoration: none;
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1160px;
+    border-right: 1px solid;
+    margin-left: -0px;
+}
+
+.about {
+    flex: 1;
+    background-color: #782221;
+    color: white;
+}
+
+.about h2 {
+    width: 300px;
+    background-color: #dbc2a4;
+}
+
+.about p {
+    text-indent: 20px;
+    text-align: justify;
+    width: 280px ;
+    word-wrap: break-word;
+    overflow-y: visible;
+}
+
+.curriculum {
+    flex: 2;
+    margin-left : -850px;
+    background-color: white;
+    width: 600px;
+    margin-right: -25px;
+    border-right: 1px solid black;
+}
+
+
+.curriculum :hover {
+        text-decoration: underline;
+ }
+
+.curriculum h2 { 
+    width: 750px;
+    background-color: #dbc2a4;
+}
+
+footer {
+    position: absolute;
+    background-color: #782221;
+    width: 1160px;
+    height: 200px;
+    margin-left: 50px;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+a :hover {
+    opacity: 0.6;
+}
+
+a{
+    display:flex;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+    width: 150px;
+    display: flex;
+    margin: -40px;
+}
+
+
+.small footer {
+    color: white;
+    margin-bottom: 50px;
+}
